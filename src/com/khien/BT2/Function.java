@@ -1,11 +1,13 @@
 package com.khien.BT2;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Function {
     Scanner sc = new Scanner(System.in);
     ArrayList<Students> listStudent = new ArrayList<>();
+
     public void addInfo(Students student) {
         System.out.println("Nhập ID");
         int id = Integer.parseInt(sc.nextLine());
